@@ -1,0 +1,1444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="/fontawesome-free-6.0.0-web/fontawesome-free-6.0.0-web/css/all.min.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"
+        integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"
+        integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    
+
+    
+</head>
+
+<body>
+
+    <!-- HEADER BEGINS -->
+
+    <div class="container-fluid pt-4 pb-4 bg-info">
+        <div class="row">
+            <div class="col-md-6 fs-1 fw-bold text-center text-light">
+                JOIN THE 6AM MILLION RUPEE MORNING CLUB!
+            </div>
+            <div class="col-md-6 fs-1 text-center justify-content-center lh-base">
+                New Year Begins In <br>
+                <span id="clock"></span>
+
+                <script>
+                    var interval = setInterval(function () {
+                        var dest = new Date("Dec 31, 2022 23:59:59").getTime();
+                        var curr = new Date().getTime();
+                        var ans = dest - curr;
+                        var days = Math.floor(ans / (1000 * 60 * 60 * 24));
+                        console.log(days);
+                        var hours = Math.floor((ans % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                        console.log(hours);
+                        var minutes = Math.floor((ans % (1000 * 60 * 60)) / (1000 * 60));
+                        console.log(minutes);
+                        var seconds = Math.floor((ans % (1000 * 60)) / 1000);
+                        console.log(seconds);
+                        document.getElementById("clock").innerHTML = days + "d: " + hours + "hours: " + minutes + "m: " + seconds + "s"
+                    }, 1000);
+                </script>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- HEADER ENDS -->
+
+    <!-- AFTER HEADER STARTS -->
+
+
+
+
+
+    <div class="container-fluid bg-black">
+        <div class="row justify-content-center"><img src="images\conquer.png" class="img-fluid" style="max-width: 40%;"
+                alt="">
+        </div>
+        <div class="row">
+            <div style="color:#0DCAF0;" class="fs-2 fw-bold text-center p-5 pb-3"> <span class="text-light">
+                    Experience</span> Real
+                Transformation In Your Health, Wealth, Career & Relationships <span class="text-light"> In Just 5 Days
+                    By </span> Waking Up at 6am</div>
+            <div class="row px-5 fw-bold">
+                <p class="fs-5 text-light text-center"> <span style="color: red;"> [Revealed Inside] - </span> My
+                    <u>Proven and Tested</u> Morning Routine Formula which I used to build healthy
+                    lifestyle, better relationships, laser focused mindset and profitable career in just 45-minutes/day
+                </p>
+            </div>
+            <div class="row justify-content-center"><img src="images\1.png" class=" img-fluid"
+                    style="max-height: 50rem; width:auto;" alt="">
+            </div>
+            <div class="row justify-content-center">
+                <button type="button" class="btn w-25 text-light"
+                    style="background-color:#FF0303;border:5px;border-radius: 50px;">ENROLL NOW @ 197/-
+                    <del>1997/-</del>
+                </button>
+            </div>
+
+            <div class="row mt-3 text-center ">
+                <i class="fa-solid fa-calendar-check text-light fa-2x"></i>
+                <p class="text-light fs-4 mt-2">14th March, 6AM IST</p>
+            </div>
+            <div class="row">
+                <p class="dotted-border p-3 text-center">100% MONEY BACK & REFUND POLICY!!</p>
+            </div>
+
+
+            <div class="row">
+                <p class="fs-2 fw-bolder text-center px-5 my-3" style="color: #0DCAF0;"> <span class="text-light">
+                        Eliminate</span> Stress, Procrastination, Addictive
+                    Behaviours<span class="text-light"> & Say Good Bye to Your</span> Lazy, Unproductive Self.</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- AFTER HEADER ENDS -->
+
+
+
+
+
+
+
+    <!-- SLIDER 1 STARTS -->
+
+
+    <div class="container-fluid bg-black">
+        <div id="carouselExampleControls" class="carousel slide justify-content-center" data-bs-ride="carousel">
+            <div class="carousel-inner ">
+                <div class="carousel-item active">
+                    <img src="images/2.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/3.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/4.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- SLIDER 1 ENDS -->
+
+
+
+
+    <!-- MAJOR SECRETS STARTS -->
+
+
+
+    <div class="container-fluid bg-black">
+        <div class="container">
+            <div class="row text-center">
+                <p class="text-white fs-3">THE <span style="color:#0DCAF0 ;"> MAJOR SECRETS</span> YOU WILL DISCOVER IN
+                    THIS
+                    WORKSHOP</p>
+            </div>
+            <div class="row fs-5">
+                <div class="col-md-6 col-sm-12 lh-lg mb-3">
+                    <i class="fa-solid fa-circle-check fa-color"></i>
+                    <span class="text-white"> Discover strategies that Change Unproductive Behaviours and Strengthen
+                        your Motivation when needed. <br></span>
+                    <i class="fa-solid fa-circle-check fa-color"></i>
+                    <span class="text-white"> Build strong Routine + Goal Plans to help you Concentrate and Focus more
+                        towards Career Growth​<br></span>
+                    <i class="fa-solid fa-circle-check fa-color"></i>
+                    <span class="text-white">Understand how Bad Habits has Affected you Psychologically and
+                        Biologically, and what Steps you need to take to Enable Your Life. </span>
+                </div>
+                <div class="col-md-6 col-sm-12 lh-lg">
+                    <i class="fa-solid fa-circle-check fa-color"></i>
+                    <span class="text-white"> Develop Mindfulness Practice in your daily life, as a way of both coping
+                        with your emotions and helping you build positive habits<br></span>
+                    <i class="fa-solid fa-circle-check fa-color"></i>
+                    <span class="text-white"> Become Disciplined to take action on daily basis and complete
+                        tasks.<br></span>
+                    <i class="fa-solid fa-circle-check fa-color"></i>
+                    <span class="text-white">Achieve Better Health, Relationship, Career & Financial Freedom with Right
+                        Action Plan.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <!-- MAJOR SECRETS ENDS -->
+    <!-- SPECIALLY FOR YOU STARTS -->
+
+
+
+
+
+    <div class="container-fluid" style="background-color: #DADADA;">
+        <div class="row text-center">
+            <p class="fs-3">"I feel lazy, bored and I cant overcome my <span style="color: red;">
+                    PROCRASTINATION"</span></p>
+            <p class="fs-3">"I try to change my habits but <span style="color: red;"> FAIL</span> after few days."</p>
+            <p class="fs-3">"I am not able to be<span style="color: red;"> CONSISTENT</span> in following routines and
+                my plans"</p>
+            <p class="fs-3">"I cant stop my <span style="color: red;">OVERTHINKING</span> and i feel very anxious about
+                everything."</p>
+            <p class="fs-1 fw-bold">If it Sounds like You, Then this Workshop is <span style="color:#0DCAF0 ;">
+                    SPECIALLY FOR YOU!</span></p>
+            <p class="fs-1">How does <span style="color: red;"> CONQUER YOUR LIFE</span> 5 days Workshop works?</p>
+        </div>
+        <div class="container">
+            <div class="row border border-5 border-dark">
+                <span class="mb-2"><i class="fa-solid fa-face-smile fa-color fa-2x"></i>
+                 Million Rupee Morning Routine Live Session to help improve your mind, body and emotions at 6:00 to
+                    6:45 AM</span>
+                <span class="mb-2"><i class="fa-solid fa-user-group fa-color fa-2x"></i>
+                 Conquer Your Life training Session on Habit Building, Time Management & Goal Setting at 6:45 to 7:30
+                    AM</span>
+                <span class="mb-2"><i class="fa-solid fa-file-invoice fa-color fa-2x"></i>
+                 Daily Assignments & Tasks with ready templates to perform at your convenience.</span>
+               <span class="mb-2"> <i class="fa-solid fa-check fa-color fa-2x"></i>
+                 Bonus Mindfulness & Meditation Exercises to help you stay calm, focused and happy.</span>
+            </div>
+            <div class="row justify-content-center">
+                <button type="button" class="btn w-25 text-light m-3 button-animation"
+                    style="background-color:#FF0303;border:5px;border-radius: 50px;">ENROLL NOW @ 197/-
+                    <del>1997/-</del>
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <!-- SPECIALLY FOR YOU ENDS -->
+    <!-- WHAT WILL YOU LEARN STARTS -->
+
+
+
+
+
+
+
+    <div class="container">
+        <div class="row">
+            <p class="fs-2 text-center fw-bold">What will you <span style="color: red;"> LEARN</span> over 5 value
+                packed days?</p>
+        </div>
+        <div class="row justify-content-center">
+            <button type="button" class="btn px-5 py-3 text-light"
+                style="background-color:black;text:white;width:auto;border:5px;border-radius: 50px;">DAY 1 -
+                AWARENESS,
+                IDENTIFICATION & MOTIVATION</button>
+        </div>
+
+        <div class="container">
+            <div class="row border border-3 text-center border-dark shadow-class mb-4 mt-3">
+                <p class="fa-color fs-2 fw-bolder">SECRET TO MILLION RUPEE ROUTINE</p>
+                <p>✔️ <b> The 6AM Million Rupee Morning Routine highly successful people use to achieve Peak
+                        Performance</b></p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row border border-3 text-center border-dark shadow-class mb-4  mt-3">
+                <p class="fa-color fs-2 fw-bolder">BUILDING AWARENESS REGARDING UNPRODUCTIVE HABITS</p>
+                <p>✔️ <b> Understanding the cause of effect of current habits of our life</b></p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row border border-3 text-center border-dark shadow-class mb-4  mt-3">
+                <p class="fa-color fs-2 fw-bolder">DEVELOPING MOTIVATION FOR CHANGE</p>
+                <p>✔️ <b> Strengthen Your Motivation and Commit to Change. </b></p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row border border-3 text-center border-dark shadow-class mb-4  mt-3">
+                <p class="fa-color fs-2 fw-bolder">MINDFULNESS EXERCISE FOR PRESENCE</p>
+                <p>✔️ <b> Meditation Technique to help you Concentrate and Focus on Present.</b></p>
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <div class="row justify-content-center">
+            <button type="button" class="btn px-5 py-3 text-light"
+                style="background-color:black;text:white;width:auto;border:5px;border-radius: 50px;">DAY 2 -
+                BECOMING A
+                SELF EXERT</button>
+        </div>
+
+        <div class="container">
+            <div class="row border border-3 text-center border-dark shadow-class mb-4 mt-3">
+                <p class="fa-color fs-2 fw-bolder">THE SCIENCE BEHIND HABIT FORMATION</p>
+                <p>✔️ <b> Brain Effects Of Addictions & How They Affect Behaviour</b></p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row border border-3 text-center border-dark shadow-class mb-4  mt-3">
+                <p class="fa-color fs-2 fw-bolder">URGES & TRIGGER POINTS</p>
+                <p>✔️ <b>Exercise for Identifying the patterns behind your unproductive habits and addictions .</b>
+                </p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row border border-3 text-center border-dark shadow-class mb-4  mt-3">
+                <p class="fa-color fs-2 fw-bolder">FOUR LAWS O F BEHAVIOUR CHANGE</p>
+                <p>✔️ <b>Simple powerful steps to break your bad habits and make new life changing lifestyle </b>
+                </p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row border border-3 text-center border-dark shadow-class mb-4  mt-3">
+                <p class="fa-color fs-2 fw-bolder">BELL MEDITATION EXERCISE</p>
+                <p>✔️ <b>Healing with mindfulness and building focus through sounds and frequencies</b></p>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+        <div class="row justify-content-center">
+            <button type="button" class="btn px-5 py-3 text-light"
+                style="background-color:black;text:white;width:auto;border:5px;border-radius: 50px;">DAY 3 -
+                STRENGTHEN
+                YOURSELF</button>
+        </div>
+
+        <div class="container">
+            <div class="row border border-3 text-center border-dark shadow-class mb-4 mt-3">
+                <p class="fa-color fs-2 fw-bolder">HABIT BUILDING TRAINING</p>
+                <p>✔️ <b>Strengthen each area of your life which supports your growth</b></p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row border border-3 text-center border-dark shadow-class mb-4  mt-3">
+                <p class="fa-color fs-2 fw-bolder">HABIT TRACKER + PLANNER</p>
+                <p>✔️ <b>A powerful tools to track, adjust and analyse your habit goals</b></p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row border border-3 text-center border-dark shadow-class mb-4  mt-3">
+                <p class="fa-color fs-2 fw-bolder">IDENTITY BASED HABITS </p>
+                <p>✔️ <b>Strategies to build processes which develop last longing habits </b></p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row border border-3 text-center border-dark shadow-class mb-4  mt-3">
+                <p class="fa-color fs-2 fw-bolder">BOX BREATHING TECHNIQUE
+                </p>
+                <p>✔️ <b>Meditation to help you manage stress, anxiety and improve focus</b></p>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="row justify-content-center">
+            <button type="button" class="btn px-5 py-3 text-light"
+                style="background-color:black;text:white;width:auto;border:5px;border-radius: 50px;">DAY 4 - CONQUER
+                YOURSELF</button>
+        </div>
+
+        <div class="container">
+            <div class="row border border-3 text-center border-dark shadow-class mb-4 mt-3">
+                <p class="fa-color fs-2 fw-bolder">MIND REPROGRAMMING</p>
+                <p>✔️ <b>Changing your beliefs and limited thinking patterns from past.</b></p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row border border-3 text-center border-dark shadow-class mb-4  mt-3">
+                <p class="fa-color fs-2 fw-bolder">SMART ACTION PLANNING </p>
+                <p>✔️ <b>Discover A Realistic Plan To Meet Your Goals With Accountability</b></p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row border border-3 text-center border-dark shadow-class mb-4  mt-3">
+                <p class="fa-color fs-2 fw-bolder">PROCRASTINATION KILLER TRICKS </p>
+                <p>✔️ <b> Eliminate distractions and laziness and build your confidence and self esteem.</b></p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row border border-3 text-center border-dark shadow-class mb-4  mt-3">
+                <p class="fa-color fs-2 fw-bolder">MINDFULNESS EXERCISE FOR CONTROLLING EMOTIONS</p>
+                <p>✔️ <b>Meditation Technique To Help You Gain Control On Your Addictions</b></p>
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <div class="row justify-content-center">
+            <button type="button" class="btn px-5 py-3 text-light"
+                style="background-color:black;text:white;width:auto;border:5px;border-radius: 50px;">DAY 5 - 2XP
+                GROWTH
+                MASTERCLASS</button>
+        </div>
+
+        <div class="container">
+            <div class="row border border-3 text-center border-dark shadow-class mb-4 mt-3">
+                <p class="fa-color fs-2 fw-bolder">THE GOAL GETTER METHOD</p>
+                <p>✔️ <b>Right process of Goal Setting to achieve high performance results</b></p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row border border-3 text-center border-dark shadow-class mb-4  mt-3">
+                <p class="fa-color fs-2 fw-bolder">PASSION & PURPOSE BUILDING</p>
+                <p>✔️ <b>BRIDGE THE GAP between potential and performance</b></p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row border border-3 text-center border-dark shadow-class mb-4  mt-3">
+                <p class="fa-color fs-2 fw-bolder">MASTERING LIFE BLUEPRINT </p>
+                <p>✔️ <b> How to be persistent on making and attracting unlimited wealth
+
+                    </b></p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row border border-3 text-center border-dark shadow-class mb-4  mt-3">
+                <p class="fa-color fs-2 fw-bolder">THE 6P CAREER GROWTH FORMULA</p>
+                <p>✔️ <b>Learn tools to improve skill set or level of experience at work. </b></p>
+            </div>
+        </div>
+
+        <div class="container hl"></div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <p class="fs-2 fw-bolder text-center mt-4">Listen To What Our <span style="color:#FF0303 ;">
+                    STUDENTS</span>
+                say!</p>
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <!-- WHAT WILL YOU LEARN ENDS -->
+
+
+    <!-- VIDEOS START -->
+
+
+
+
+
+
+
+
+
+    <div class="container">
+        <div class="row mb-4">
+            <div class="col-md-4">
+
+                <iframe width="auto" height="auto"
+                    src="https://www.youtube.com/embed/IIpiLZGTWuo?list=PLwGdqUZWnOp00IbeN0OtL9dmnasipZ9x8"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="col-md-4">
+
+
+                <iframe width="auto" height="auto"
+                    src="https://www.youtube.com/embed/mIW_8dMQaUk?list=PLwGdqUZWnOp00IbeN0OtL9dmnasipZ9x8"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+
+            </div>
+            <div class="col-md-4">
+                <iframe width="auto" height="auto"
+                    src="https://www.youtube.com/embed/aW9Zv2q7T1s?list=PLwGdqUZWnOp00IbeN0OtL9dmnasipZ9x8"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <!-- VIDEOS ENDS -->
+    <!-- FIXED IMAGE STARTS -->
+
+
+
+
+    <div class="container-fluid box-image">
+
+
+
+
+        <div class="container">
+            <p class="text-light mt-4 fs-2 text-center">MEET YOUR COACH</p>
+        </div>
+
+        <div>
+            <img src="images/6.png" style=" border-radius: 200px; height: 15rem;width:20rem;" class="img-fluid" alt="">
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <p class="fs-1 fw-bolder text-center mt-3" style="color:#FF0303 ;">Gurudath Kamath</p>
+            </div>
+        </div>
+
+
+        <div class="container mb-4 lh-1">
+            <div class="row">
+
+                <p class="fs-1 fw-bold fa-color text-center"><span class="counter fs-1">15000</span>+</p>
+
+                <h3 class="text-light text-center">TRAINED</h3>
+            </div>
+        </div>
+
+
+        <div class="container mb-4 lh-1">
+            <div class="row">
+                <p class="fs-1 fw-bold fa-color text-center"><span class="counter fs-1">30000</span>+</p>
+                <h3 class="text-light text-center">SOCIAL MEDIA FOLLOWERS</h3>
+            </div>
+        </div>
+        <div class="container mb-4 lh-1">
+            <div class="row">
+                <p class="fs-1 fw-bold fa-color text-center"><span class="counter fs-1">500000</span>+</p>
+                <h3 class="text-light text-center">ONLINE IMPRESSIONS
+                </h3>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <p class="fs-2 text-center" style="color:#FF0303; border: 2px solid white; border-radius: 50px;">MY
+                    STORY - 10 YEARS BACK</p>
+            </div>
+            <div class="row pt-5">
+                <h4 class="text-light">– Ten years back i was homeless, unmotivated, visionless person stuck,
+                    depressed,
+                    confused and lost with no goal in my life.</h4>
+                <h4 class="text-light my-4">– I was a shy awkward person, always drinking alcohol and partying,
+                    addicted
+                    to drugs and bad habits, with negative emotions, and could not stop them. I was lazy and full of
+                    excuses and blamed the whole world for my bad life.</h4>
+            </div>
+        </div>
+        <div class="container">
+
+            <div class="carousel" data-flickity='{ "imagesLoaded": true, "percentPosition": false, "wrapAround": true}'>
+                <img src="images/7.jpg" alt="orange tree" />
+                <img src="images/8.jpg" alt="submerged" />
+                <img src="images/9.jpg" alt="look-out" />
+                <img src="images/10.jpg" alt="One World Trade" />
+                <img src="images/11.jpg" alt="drizzle" />
+                <img src="images/12.jpg" alt="cat nose" />
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <h4 class="text-light mt-5">Gurudath had to overcome several challenges in life, beginning with
+                    growing
+                    up away from parents his
+                    entire childhood, overcoming his addiction to alcohol and drugs, failed business attempts, going
+                    into
+                    bankruptcy.</h4>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row my-4">
+                <p class="fs-2 text-center" style="color:#FF0303; border: 2px solid white; border-radius: 50px;">MY
+                    STORY - TODAY</p>
+            </div>
+            <div class="row">
+
+                <h4 class="text-light mt-3">– Today Gurudath is on a mission to help 1 Million People Transform
+                    their
+                    Lifestyles to become Peak Performance achievers, Entrepreneurs and Self-made Millionaires.</h4>
+            </div>
+            <div class="row">
+                <h4 class="text-light mt-3">– A Certified Growth Coach, got trained under world renowned coaches
+                    like
+                    Tony Robbins, Arfeen Khan, Dr Wayne Dyer, Liouse Hay, Siddhart Rajshekhar and more.</h4>
+            </div>
+
+        </div>
+
+
+        <div class="container my-5">
+            <span class="text-light"><i class="fa-solid fa-star fa-color fa-2x"></i><span class="fs-4 p-3">7 Figure
+                    Growth Coach & Entrepreneur</span></span><br>
+            <span class="text-light"><i class="fa-solid fa-star fa-color fa-2x"></i><span class="fs-4 p-3">Best
+                    Selling
+                    Author of the Book "The Inner Guru"</span></span><br>
+            <span class="text-light"><i class="fa-solid fa-star fa-color fa-2x"></i><span class="fs-4 p-3">Founder
+                    of
+                    Inner Guru School Of Transformation - More than 1000+ students
+                </span></span><br>
+            <span class="text-light"><i class="fa-solid fa-star fa-color fa-2x"></i><span class="fs-4 p-3">One of
+                    the
+                    most successful Life Growth Coach in India
+                </span></span><br>
+            <span class="text-light"><i class="fa-solid fa-star fa-color fa-2x"></i><span class="fs-4 p-3">Trained
+                    more
+                    than 7000 people
+                </span></span>
+        </div>
+
+
+        <div class="container">
+
+            <div class="carousel" data-flickity='{ "imagesLoaded": true, "percentPosition": false, "wrapAround": true}'>
+                <img src="images/7.jpg" alt="orange tree" />
+                <img src="images/8.jpg" alt="submerged" />
+                <img src="images/9.jpg" alt="look-out" />
+                <img src="images/10.jpg" alt="One World Trade" />
+                <img src="images/11.jpg" alt="drizzle" />
+                <img src="images/12.jpg" alt="cat nose" />
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <h4 class="text-light mt-4 fw-bold">IN THIS WORKSHOP I AM GOING TO TEACH YOU THE EXACT SYSTEM WHICH
+                    I
+                    USED TO
+                    TRANSFORM MY LIFE AND OVERCOME MY ADDICTIONS AND NEGATIVE LIFE PATTERNS.</h4>
+            </div>
+            <div class="row">
+                <h4 class="text-light mt-3 fw-bold">AND HOW YOU CAN USE THESE CONCEPTS TO MAKE A DIFFERENCE IN YOUR
+                    LIFE! NO MATTER
+                    WHAT STAGE OF LIFE YOU ARE IN RIGHT NOW</h4>
+            </div>
+        </div>
+
+
+        <div class="row justify-content-center mt-3">
+            <button type="button" class="btn text-light"
+                style="background-color:#FF0303;border:5px;border-radius: 50px;">ENROLL NOW @ 197/-
+                <del>1997/-</del>
+            </button>
+        </div>
+
+
+        <div class="row mt-3 text-center ">
+            <span class="text-light fs-4 mt-2"><i class="fa-solid fa-calendar-check text-light"></i> 14th March, 6AM
+                IST</span>
+        </div>
+
+        <div class="row mt-3">
+            <p class="dotted-border px-5 py-3 text-center">100% MONEY BACK & REFUND POLICY!!</p>
+        </div>
+
+    </div>
+    <!-- FIXED IMAGE ENDS -->
+
+
+
+
+
+
+
+
+    <!-- REGISTER TODAY STARTS -->
+
+
+    <div class="container">
+        <div class="row">
+            <h2 class="text-danger fw-bold text-center">Register today to unlock free bonus worth Rs. 6000/-
+            </h2>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <h3 id="horizontal" class="text-center">BONUS #1</h3>
+        </div>
+    </div>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="/images/13.png" class="img-fluid" style="height: 450px;" alt="">
+            </div>
+            <div class="col-md-6">
+                <h5 class="text-center fw-bold lh-lg">TIME MANAGEMENT EBOOK DESIGNED TO HELP YOU REDUCE YOUR
+                    OVERWHELM
+                    AND INCREASE YOUR RESULTS.</h5>
+
+                <div class="row justify-content-center">
+                    <button type="button" class="btn w-50 text-light mb-3"
+                        style="background-color:#FF0303;border:5px;border-radius: 50px;">ENROLL NOW @ 197/-
+                        <del>1997/-</del>
+                    </button>
+                </div>
+                <span><i class="fa-solid fa-circle-check fa-color"></i> <span class="fs-5"> Discover and apply
+                        time-management and
+                        productivity strategies, techniques, and hacks</span></span><br>
+                <span><i class="fa-solid fa-circle-check fa-color"></i> <span class="fs-5">Increase your
+                        productivity by implementing new strategies throughout your day</span></span><br>
+                <span><i class="fa-solid fa-circle-check fa-color"></i> <span class="fs-5">Prioritize effectively to
+                        make sure you're working on the right things, at the right time</span></span>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="container">
+        <div class="row">
+            <h3 id="horizontal" class="text-center">BONUS #2</h3>
+        </div>
+    </div>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="/images/14.jpg" class="img-fluid" style="height: 450px;" alt="">
+            </div>
+            <div class="col-md-6">
+                <h5 class="text-center fw-bold lh-lg">MASTER THE SKILL OF GOAL SETTING TO ACHIEVE RESULTS LIKE NEVER
+                    BEFORE.</h5>
+
+                <div class="row justify-content-center">
+                    <button type="button" class="btn w-50 text-light mb-3"
+                        style="background-color:#FF0303;border:5px;border-radius: 50px;">ENROLL NOW @ 197/-
+                        <del>1997/-</del>
+                    </button>
+                </div>
+                <span><i class="fa-solid fa-circle-check fa-color"></i> <span class="fs-5">Explore why goal setting
+                        at
+                        work is important and worth your time</span></span><br>
+                <span><i class="fa-solid fa-circle-check fa-color"></i> <span class="fs-5">Discover the fundamentals
+                        of
+                        goal setting
+                    </span></span><br>
+                <span><i class="fa-solid fa-circle-check fa-color"></i> <span class="fs-5">Create a realistic plan
+                        to
+                        meet your newly set goals
+                    </span></span>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="container">
+        <div class="row">
+            <h3 id="horizontal" class="text-center">BONUS #3</h3>
+        </div>
+    </div>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="/images/15.gif" class="img-fluid" style="height: 450px;" alt="">
+            </div>
+            <div class="col-md-6">
+                <h5 class="text-center fw-bold lh-lg">A GUIDE TO EMPOWERING AND MOTIVATING YOURSELF TO ACHIEVE
+                    SUCCESS
+                    WITH DAILY AFFIRMATIONS
+                </h5>
+
+                <div class="row justify-content-center">
+                    <button type="button" class="btn w-50 text-light mb-3"
+                        style="background-color:#FF0303;border:5px;border-radius: 50px;">ENROLL NOW @ 197/-
+                        <del>1997/-</del>
+                    </button>
+                </div>
+                <span><i class="fa-solid fa-circle-check fa-color"></i> <span class="fs-5">Use affirmations to
+                        empower,
+                        to create abundance, to boost your mood and to start and end each day
+                        right.</span></span><br>
+                <span><i class="fa-solid fa-circle-check fa-color"></i> <span class="fs-5">Learn relaxing techniques
+                        to
+                        help boost your morale and confidence levels
+                    </span></span><br>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <!-- REGISTER TODAY ENDS -->
+    <!-- VIDEO SECTION STARTS -->
+
+
+
+
+
+
+
+
+
+    <div class="container-fluid bg-black">
+        <div class="container">
+            <div class="row">
+                <p class="fs-1 text-center text-danger pt-4">Still Not Enrolled? Need more proof?</p>
+                <p class="text-light text-center fs-3">Here is what people and experts got to say about Gurudath's
+                    Workshops</p>
+            </div>
+            <div class="row">
+                <hr class="line">
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <div class="container-fluid bg-black">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-md-4">
+                    <iframe width="auto" height="auto"
+                        src="https://www.youtube.com/embed/F1lI-Fhgjew?list=PLwGdqUZWnOp00IbeN0OtL9dmnasipZ9x8"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+
+                </div>
+                <div class="col-md-4">
+                    <iframe width="auto" height="auto"
+                        src="https://www.youtube.com/embed/F1lI-Fhgjew?list=PLwGdqUZWnOp00IbeN0OtL9dmnasipZ9x8"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+
+                </div>
+                <div class="col-md-4">
+                    <iframe width="auto" height="auto"
+                        src="https://www.youtube.com/embed/F1lI-Fhgjew?list=PLwGdqUZWnOp00IbeN0OtL9dmnasipZ9x8"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+            <div class="row mb-5">
+                <div class="col-md-4">
+                    <iframe width="auto" height="auto"
+                        src="https://www.youtube.com/embed/F1lI-Fhgjew?list=PLwGdqUZWnOp00IbeN0OtL9dmnasipZ9x8"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+
+                </div>
+                <div class="col-md-4">
+                    <iframe width="auto" height="auto"
+                        src="https://www.youtube.com/embed/F1lI-Fhgjew?list=PLwGdqUZWnOp00IbeN0OtL9dmnasipZ9x8"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+
+                </div>
+                <div class="col-md-4">
+                    <iframe width="auto" height="auto"
+                        src="https://www.youtube.com/embed/F1lI-Fhgjew?list=PLwGdqUZWnOp00IbeN0OtL9dmnasipZ9x8"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+
+                </div>
+            </div>
+
+
+
+
+
+            <div class="row mb-5">
+                <div class="col-md-4">
+                    <iframe width="auto" height="auto"
+                        src="https://www.youtube.com/embed/F1lI-Fhgjew?list=PLwGdqUZWnOp00IbeN0OtL9dmnasipZ9x8"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+
+                </div>
+                <div class="col-md-4">
+                    <iframe width="auto" height="auto"
+                        src="https://www.youtube.com/embed/F1lI-Fhgjew?list=PLwGdqUZWnOp00IbeN0OtL9dmnasipZ9x8"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+
+                </div>
+                <div class="col-md-4">
+                    <iframe width="auto" height="auto"
+                        src="https://www.youtube.com/embed/F1lI-Fhgjew?list=PLwGdqUZWnOp00IbeN0OtL9dmnasipZ9x8"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+
+                </div>
+            </div>
+
+            <div class="row">
+                <p class="fa-color text-center fs-2">GOAL OF THIS WORKSHOP IS TO HELP YOU</p>
+
+            </div>
+            <div class="row lh-lg">
+                <span><i class="fa-solid fa-check fa-color fa-2x"></i><span class="text-light fs-4"> The secret to
+                        building a strong Million Rupee Mornings at 6 AM, and achieve your life goals </span></span>
+            </div>
+            <div class="row lh-lg">
+                <span><i class="fa-solid fa-check fa-color fa-2x"></i><span class="text-light fs-4"> Decrease or
+                        stop
+                        the negative behaviours that are affecting your life growth
+                    </span></span>
+            </div>
+            <div class="row lh-lg">
+                <span><i class="fa-solid fa-check fa-color fa-2x"></i><span class="text-light fs-4"> Learn healthy
+                        coping skills and habits to improve productivity and focus
+                    </span></span>
+            </div>
+            <div class="row lh-lg">
+                <span><i class="fa-solid fa-check fa-color fa-2x"></i><span class="text-light fs-4"> Understand
+                        causes
+                        behind your unproductive habits and promote healing where it matters most: at the source.
+                    </span></span>
+            </div>
+            <div class="row lh-lg">
+                <span><i class="fa-solid fa-check fa-color fa-2x"></i><span class="text-light fs-4"> Give you
+                        hands-on,
+                        easy-to-do exercises and activities that will guide you toward the life you desire.
+
+                    </span></span>
+            </div>
+            <div class="row lh-lg">
+                <span><i class="fa-solid fa-check fa-color fa-2x"></i><span class="text-light fs-4"> Discover
+                        positive
+                        interpersonal self-awareness and communication skills to help you improve your relationships
+                        and
+                        have long-term emotional growth.
+                    </span></span>
+            </div>
+
+            <div class="row justify-content-center">
+                <button type="button" class="btn w-25 text-light"
+                    style="background-color:#FF0303;border:5px;border-radius: 50px;">ENROLL NOW @ 197/-
+                    <del>1997/-</del>
+                </button>
+            </div>
+
+
+            <div class="row mt-3 text-center ">
+                <span class="text-light fs-4 mt-2"><i class="fa-solid fa-calendar-check text-light"></i> 14th March,
+                    6AM IST</span>
+            </div>
+
+            <p class="text-center text-light fs-5 mt-4 mb-5">LIMITED TO <span class="text-danger">100 SEATS
+                </span>ONLY</p>
+
+        </div>
+    </div>
+
+
+    <!-- VIDEO SECTION ENDS -->
+    <!-- REVIEWS STARTS -->
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="container mt-4">
+        <div class="row">
+            <h1 class="text-danger text-center fw-bold">HERE ARE SOME MORE RESULTS</h1>
+
+        </div>
+
+        <div class="row">
+            <i class="fa-solid fa-arrow-down-long fa-4x text-danger text-center mt-3 mb-4"></i>
+        </div>
+    </div>
+
+    <div class="container mb-4 lh-1">
+        <div class="row">
+
+            <p class="fs-1 fw-bold fa-color text-center"><span class="counter fs-1">12000</span>+</p>
+
+            <h3 class="text-center">HAPPY STUDENTS</h3>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <img src="/images/16.png" class="img-fluid" alt="" style="height: 400px; width: 700px;">
+        </div>
+        <div class="row justify-content-center">
+            <img src="/images/17.png" class="img-fluid" alt="" style="height: 400px; width: 700px;">
+        </div>
+        <div class="row justify-content-center">
+            <img src="/images/18.png" class="img-fluid" alt="" style="height: 400px; width: 700px;">
+        </div>
+        <div class="row justify-content-center">
+            <img src="/images/19.png" class="img-fluid" alt="" style="height: 400px; width: 700px;">
+        </div>
+        <div class="row justify-content-center">
+            <img src="/images/20.png" class="img-fluid" alt="" style="height: 400px; width: 700px;">
+        </div>
+        <div class="row justify-content-center">
+            <img src="/images/21.png" class="img-fluid" alt="" style="height: 400px; width: 700px;">
+        </div>
+        <div class="row justify-content-center">
+            <img src="/images/22.png" class="img-fluid" alt="" style="height: 400px; width: 700px;">
+        </div>
+        <div class="row justify-content-center">
+            <img src="/images/23.png" class="img-fluid" alt="" style="height: 400px; width: 700px;">
+        </div>
+        <div class="row justify-content-center">
+            <img src="/images/24.png" class="img-fluid" alt="" style="height: 400px; width: 700px;">
+        </div>
+        <div class="row justify-content-center">
+            <img src="/images/25.png" class="img-fluid" alt="" style="height: 400px; width: 700px;">
+        </div>
+        <div class="row justify-content-center">
+            <img src="/images/26.png" class="img-fluid" alt="" style="height: 400px; width: 700px;">
+        </div>
+        <div class="row justify-content-center">
+            <img src="/images/27.png" class="img-fluid" alt="" style="height: 400px; width: 700px;">
+        </div>
+    </div>
+
+
+
+    <div class="container mt-4">
+        <div class="row">
+            <h2 class="text-center text-danger fw-bolder mb-4">IF STILL NOT CONVINCED?</h2>
+        </div>
+        <div class="row">
+            <h4 class="text-center lh-md">Go to google and type my name, “Gurudath Kamath” ‍
+            </h4>
+            <h4 class="text-center lh-md">Go to my TrustPilot and check my reviews ‍ ‍
+            </h4>
+            <h4 class="text-center lh-md">Go to my Instagram and check my highlights ‍
+            </h4>
+            <h4 class="text-center lh-md">I’m sure you’ll have no problem getting value from me 🙂 ‍
+            </h4>
+        </div>
+    </div>
+
+
+    <div class="container mt-4">
+        <div class="row text-center fw-bold lh-lg">
+            <span><i class="fa-solid fa-check fa-color fa-2x"></i><span class=" fs-4"> CONQUER YOURSELF WORKSHOP
+                    (Value:
+                    Rs 2,997/-) </span></span>
+        </div>
+        <div class="row text-center fw-bold lh-lg">
+            <span><i class="fa-solid fa-check fa-color fa-2x"></i><span class=" fs-4"> TIME MANAGEMENT SECRETS
+                    (Value:
+                    Rs 2,000/-) </span></span>
+        </div>
+        <div class="row text-center fw-bold lh-lg">
+            <span><i class="fa-solid fa-check fa-color fa-2x"></i><span class=" fs-4"> GOAL SETTERS SANCTUARY
+                    (Value: Rs
+                    2,000/-) </span></span>
+        </div>
+        <div class="row text-center fw-bold lh-lg">
+            <span><i class="fa-solid fa-check fa-color fa-2x"></i><span class=" fs-4"> AFFIRMATIONS FOR SUCCESS
+                    (Value:
+                    Rs 2,000/-) </span></span>
+        </div>
+        <div class="row text-center fw-bold lh-lg">
+            <span><i class="fa-solid fa-check fa-color fa-2x"></i><span class=" fs-4"> 60 MINS Q&A SESSION WITH ME
+                    (Value: Priceless) </span></span>
+        </div>
+    </div>
+
+    <div class="container mt-4">
+        <div class="row text-center fw-bold">
+            <h2>TOTAL VALUE: <span class="text-danger"> RS 8,997/-</span></h2>
+            <h1 class="text-danger mt-5 mb-4">NORMAL PRICE : <del class="text-dark"> Rs 2997/-</del></h1>
+            <h1 class="my-5 fa-color">JUST FOR TODAY : <span class="text-dark"> Rs 197/-</span></h1>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <button type="button" class="btn w-25 text-light"
+                style="background-color:#FF0303;border:5px;border-radius: 50px;">ENROLL NOW @ 197/-
+                <del>1997/-</del>
+            </button>
+        </div>
+    </div>
+
+
+
+    <!-- REVIEWS ENDS -->
+    <!-- FAQ STARTS -->
+
+
+
+
+
+
+
+
+    <div class="container-fluid bg-black pt-4 pb-4">
+        <div class="container bg-light rounded-3">
+            <div class="row">
+                <h1 class="text-center text-danger my-5 fw-bold">NEED MORE HELP?</h1>
+            </div>
+
+
+
+
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            When Does The Workshop Start?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>The Introductory Call Starts on 19th, 11 AM and then 20thth to 23th March, 6 AM
+                                we
+                                will have the sessions.</strong>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Will This Be Live Or Pre-Recorded?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>It is a Live Workshop. From Monday to Thursday every morning at 6 AM we will
+                                    have our Training Sessions.
+
+                                    <p> Sunday at 11am we will have our introductory session.</p>
+                                </strong>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Which Language Is The Workshop Conducted In?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>The main language used in presentation and discussion is English.</strong>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                What Are The Timings?
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>Sunday at 11am we will have our introductory session. Morning 6AM Sessions
+                                    will
+                                    start from Monday to Thursday.</strong>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                When Can I Receive The Bonus?
+                            </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>Thursday during the masterclass all bonuses would be demonstrated only if
+                                    you
+                                    complete your 5 Day tasks.</strong>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingSix">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                Will I Get Recording Of The Training?
+                            </button>
+                        </h2>
+                        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>Yes recording will be provided if you miss the training sessions.</strong>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingSeven">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                What Is The Next Step After Registration?
+                            </button>
+                        </h2>
+                        <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>After registration you will be redirected to a thank you page, where you
+                                    will
+                                    get link to join private WhatsApp group. All the further conversations will be
+                                    sent
+                                    in the WhatsApp group plus email.</strong>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingEight">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                Will I Be Able To Make A Lot Of Money After This Workshop?
+                            </button>
+                        </h2>
+                        <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>No program ‘guarantees’ any income, including this. The workshop is designed
+                                    to
+                                    help you overcome your negative habits and patterns, getting your goals
+                                    streamlined,
+                                    help you get started with improving you daily routines and plans to reach your
+                                    goals
+                                    personally and professionally.</strong>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingNine">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                                Is There A Refund Policy?
+                            </button>
+                        </h2>
+                        <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>There is a Refund Policy for 30 days if you show us that you have done all
+                                    the
+                                    tasks and not got the results.</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FAQ ENDS -->
+    <!-- AFTER FAQ STARTS -->
+
+
+
+
+
+
+
+
+    <div class="container">
+        <div class="row">
+            <h2 class="text-center mt-4 text-black fw-bold">DO YOU WANT TO BUILD A MILLION RUPPEE LIFESTYLE?
+            </h2>
+            <h2 class="text-center mt-5 text-black fw-bolder">THEN BE AN ACTION TAKER!!!</h2>
+            <p class="text-center text-black fs-5 mt-3">I’ve discovered a much more effective way of changing our
+                lives by changing our habits. I’d love to share it with you in this workshop.</p>
+            <p class="text-center text-danger fs-5 mt-3 fw-bolder">What we need is a completely DIFFERENT LIFESTYLE.
+                It
+                all comes down to one question.</p>
+            <p class="text-center text-danger fs-5 mt-3 fw-bolder">"How serious are you about living a successful
+                and a
+                purposeful life?"</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row justify-content-center mb-4">
+            <button type="button" class="btn w-25 text-light"
+                style="background-color:#FF0303;border:5px;border-radius: 50px;">ENROLL NOW @ 197/-
+                <del>1997/-</del>
+            </button>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- AFTER FAQ ENDS -->
+
+
+
+    <!-- FOOTER STARTS -->
+
+
+
+
+
+    <div class="container-fluid bg-black">
+        <div class="row pt-4 justify-content-center pb-4">
+            <img src="/images/28.jpeg" alt="" style="height: 30rem; width: 30rem;">
+        </div>
+    </div>
+
+
+
+
+
+    <div class="container-fluid bg-black pb-5">
+
+        <div class="container bg-black">
+
+            <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false"
+                data-bs-interval="false">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/images/16.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/images/17.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/images/18.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+   
+    <!-- FOOTER ENDS -->
+
+    <script> $('.counter').counterUp({
+            delay: 10,
+            time: 1000
+        });
+    </script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+</body>
+
+</html>
